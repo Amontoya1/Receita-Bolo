@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sans-serif;
+    margin-top: auto;
+}
+
+header .navbar {
+    float: right;
+}
+header .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .navbar ul li {
+    display: inline;
+    padding: 0 15px;
+}
+header .navbar ul li a{
+    display: inline-block;
+    padding: 10px 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color:beige;
+    position: relative
+}
+....
