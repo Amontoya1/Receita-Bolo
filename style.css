@@ -1,9 +1,13 @@
 @charset "UTF8";
+@font-face {
+    font-family:"fonteInicial";
+    src: url("../font/_Yellowtail-Regular");
+}
 
 body {
     background-color: cornsilk;
     background-image:url(imagens/fundo.jpg);
-    color: darkgreen;
+    color: rgb(11, 12, 11);
 }
 
 div#interface {
@@ -15,9 +19,18 @@ div#interface {
 p {
     text-align: justify;
     text-indent: 20px;
+    
+  }
+header#cabecalho h1 {
+    font-family: "fonteInicial", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    margin-top: 60px;
 }
 figure.foto-legenda {
-   position: relative; ;
+   position: relative; 
    border: 8px solid rgb(168, 139, 139);
    box-shadow: 1px 1px 4px black; 
 }
